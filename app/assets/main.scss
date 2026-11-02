@@ -1,0 +1,31 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #202630;
+  background: #f5f6f8;
+  font-synthesis: none;
+  line-height: 1.5;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+input, textarea { font: inherit; }
+:focus-visible { outline: 3px solid #427bbe; outline-offset: 3px; }
+input[type='text'], textarea {
+  width: 100%;
+  min-height: 2.75rem;
+  padding: .6rem .75rem;
+  border: 1px solid #bbc3ce;
+  border-radius: 4px;
+  color: inherit;
+  background: #fff;
+}
+input[type='checkbox'] { width: 1.2rem; height: 1.2rem; accent-color: #244e86; }
+h1, h2, p { margin-top: 0; }
+h1 { font-size: 1.65rem; }
+h2 { font-size: 1.2rem; }
+a { color: #244e86; }
+.muted { color: #596271; }
+.error { color: #9d2631; }
+.notice { padding: .85rem 1rem; border: 1px solid #d3aa57; background: #fffaed; border-radius: 5px; }
+.actions { display: flex; align-items: center; flex-wrap: wrap; gap: .65rem; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }

@@ -1,0 +1,10 @@
+node_modules/
+.nuxt/
+.output/
+.data/
+.cache/
+.env
+coverage/
+output/
+.playwright-cli/
+*.log

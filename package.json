@@ -1,0 +1,39 @@
+{
+  "name": "mkk-basis-notes",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev --host 0.0.0.0",
+    "build": "nuxt build",
+    "preview": "node .output/server/index.mjs",
+    "postinstall": "nuxt prepare",
+    "typecheck": "nuxt typecheck",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "engines": { "node": ">=22.22.3" },
+  "dependencies": {
+    "@pinia/nuxt": "1.0.3",
+    "@vue/devtools-api": "8.2.1",
+    "nuxt": "4.6.3",
+    "pinia": "4.1.0",
+    "vue": "3.5.44"
+  },
+  "devDependencies": {
+    "sass": "1.107.1",
+    "typescript": "5.9.3",
+    "vitest": "5.0.5",
+    "vue-tsc": "3.3.14"
+  },
+  "overrides": {
+    "@vercel/nft": {
+      "glob": "14.0.3"
+    },
+    "archiver-utils": {
+      "glob": "14.0.3"
+    },
+    "readdir-glob": {
+      "minimatch": "11.0.4"
+    }
+  }
+}
